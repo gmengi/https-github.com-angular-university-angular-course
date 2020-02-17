@@ -1,0 +1,37 @@
+.course-card{
+border:1px solid #dedede;
+padding:10px 20px;
+border-radius:8px;
+max-width:350px;
+width:100%;
+box-shadow:1px 2px 4px rgba(0,0,0,0.4);
+margin:0 auto;
+margin-bottom:10px;
+}
+.course-title{
+  font-size:24px;
+  font-family: Arial, Helvetica, sans-serif;
+  display:block;
+  padding:8px 0;
+}
+.course-img{
+  max-width:100%;
+  display:block;
+}
+.course-description{
+font-size:16px;
+font-family: Arial, Helvetica, sans-serif;
+display:block;
+padding:8px 0;
+text-align:center;
+}
+.course-button{
+  background:#0174f0;
+  border:none;
+  padding:5px 8px;
+  border-radius:4px;
+  display:block;
+  color:#fff;
+  margin:5px auto;
+  cursor:pointer;
+}

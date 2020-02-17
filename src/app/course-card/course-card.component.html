@@ -1,0 +1,10 @@
+<div class="course-card">
+  <div class="course-title">
+    {{cardIndex+ ')' + ' ' + course.title}}
+  </div>
+  <img class="course-img" [src]="course.imgUrl" alt="Thumbnail">
+  <div class="course-description">
+{{course.description}}
+  </div>
+  <button class="course-button" (click)="onCourseViewed()">View Course</button>
+</div>

@@ -1,3 +1,4 @@
 <div class="courses">
-  <course-card></course-card>
+  <course-card *ngFor="let course of courses; index as i" (courseSelected)="oncourseSelected($event)" 
+  [course]="course" [cardIndex]="i+1"></course-card>
 </div>
